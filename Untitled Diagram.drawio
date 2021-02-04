@@ -1,16 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T01:33:09.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="6ztHCkIoSzJlFyAP2Vny" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T01:44:17.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="mCa5MJO8GcPzDsWj-TrW" version="14.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="780" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="780" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <object label="" id="0">
           <mxCell />
         </object>
         <mxCell id="1" parent="0" />
         <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-12" value="RS_ActionDrawLine" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="570" width="160" height="34" as="geometry" />
+          <mxGeometry x="340" y="570" width="280" height="60" as="geometry">
+            <mxRectangle x="340" y="570" width="150" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JqMyNmEQ3Z6WC0KPOLnb-12">
-          <mxGeometry y="26" width="160" height="8" as="geometry" />
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-27" value="+ mouseReleaseEvent(QMouseEvent* e) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JqMyNmEQ3Z6WC0KPOLnb-12">
+          <mxGeometry y="34" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-16" value="RS_PreviewActionInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="450" width="160" height="34" as="geometry" />
@@ -51,6 +56,30 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="420" y="340" as="sourcePoint" />
             <mxPoint x="440" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-28" value="&lt;span class=&quot;transSent&quot; style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;\\5fae软雅黑&amp;quot; , &amp;quot;\\5b8b体&amp;quot; , &amp;quot;malgun gothic&amp;quot; , &amp;quot;meiryo&amp;quot; , sans-serif ; font-size: 14px ; line-height: 26px ; background-color: rgb(247 , 248 , 250)&quot;&gt;这个类用于捕捉图形视图中的函数。&lt;/span&gt;&lt;span class=&quot;transSent&quot; style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;\\5fae软雅黑&amp;quot; , &amp;quot;\\5b8b体&amp;quot; , &amp;quot;malgun gothic&amp;quot; , &amp;quot;meiryo&amp;quot; , sans-serif ; font-size: 14px ; line-height: 26px ; background-color: rgb(247 , 248 , 250)&quot;&gt;如果动作需要捕捉实体或捕捉坐标，它们通常派生自这个基类。&lt;/span&gt;&lt;span class=&quot;transSent&quot; style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;\\5fae软雅黑&amp;quot; , &amp;quot;\\5b8b体&amp;quot; , &amp;quot;malgun gothic&amp;quot; , &amp;quot;meiryo&amp;quot; , sans-serif ; font-size: 14px ; line-height: 26px ; background-color: rgb(247 , 248 , 250)&quot;&gt;使用这些方法从鼠标坐标中检索图形坐标。&lt;/span&gt;&lt;span class=&quot;transSent&quot; style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-family: &amp;quot;arial&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;\\5fae软雅黑&amp;quot; , &amp;quot;\\5b8b体&amp;quot; , &amp;quot;malgun gothic&amp;quot; , &amp;quot;meiryo&amp;quot; , sans-serif ; font-size: 14px ; line-height: 26px ; background-color: rgb(247 , 248 , 250)&quot;&gt;可能的snap函数在RS_SnapMode中描述。&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-29" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JqMyNmEQ3Z6WC0KPOLnb-20" target="JqMyNmEQ3Z6WC0KPOLnb-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-30" value="RS_Vector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="170" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="JqMyNmEQ3Z6WC0KPOLnb-30">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-34" value="&lt;ul style=&quot;box-sizing: border-box ; margin: 0px ; padding: 0px ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , &amp;#34;\\5b8b体&amp;#34; , &amp;#34;malgun gothic&amp;#34; , &amp;#34;meiryo&amp;#34; , sans-serif ; font-size: 14px ; line-height: 14px ; background-color: rgb(247 , 248 , 250)&quot;&gt;&lt;li style=&quot;box-sizing: border-box ; margin: 0px 0px 10px ; padding: 0px ; list-style: none&quot;&gt;&lt;p class=&quot;src grammarSection highlight&quot; style=&quot;box-sizing: border-box ; margin: 0px ; padding: 0px ; line-height: 20px&quot;&gt;表示三维向量(x/y/z)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-70" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JqMyNmEQ3Z6WC0KPOLnb-35" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JqMyNmEQ3Z6WC0KPOLnb-30" target="JqMyNmEQ3Z6WC0KPOLnb-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="410" as="sourcePoint" />
+            <mxPoint x="560" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
